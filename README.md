@@ -1,10 +1,10 @@
 
-# 🎯 Simulación Numérica de Ecuaciones Diferenciales para un Sistema de Péndulo
+# Simulación Numérica de Ecuaciones Diferenciales para un Sistema de Péndulo
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
-![NumPy](https://img.shields.io/badge/NumPy-NumPy-informational)
-![SciPy](https://img.shields.io/badge/SciPy-ODE-green)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Plotting-orange)
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
+![NumPy](https://img.shields.io/badge/NumPy-NumPy-informational)  
+![SciPy](https://img.shields.io/badge/SciPy-ODE-green)  
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Plotting-orange)  
 
 ---
 
@@ -16,19 +16,19 @@ Este script realiza la simulación numérica de un sistema de ecuaciones diferen
 
 ## Características
 
-- **Modelo físico:** Incluye parámetros de gravedad, masa y longitud del péndulo.
-- **Resolución numérica:** Utiliza `solve_ivp` de SciPy para integrar el sistema de ODEs.
-- **Visualización:** Grafica la evolución de las variables `P11`, `P12` y `P22` a lo largo del tiempo.
-- **Código claro y comentado:** Fácil de adaptar a otros sistemas o condiciones iniciales.
+- **Modelo físico:** Incluye parámetros de gravedad, masa y longitud del péndulo.  
+- **Resolución numérica:** Utiliza `solve_ivp` de SciPy para integrar el sistema de ODEs.  
+- **Visualización:** Grafica la evolución de las variables `P11`, `P12` y `P22` a lo largo del tiempo.  
+- **Código claro y comentado:** Fácil de adaptar a otros sistemas o condiciones iniciales.  
 
 ---
 
 ## Requisitos
 
-- Python 3.8 o superior
-- [NumPy](https://numpy.org/)
-- [SciPy](https://scipy.org/)
-- [Matplotlib](https://matplotlib.org/)
+- Python 3.8 o superior  
+- [NumPy](https://numpy.org/)  
+- [SciPy](https://scipy.org/)  
+- [Matplotlib](https://matplotlib.org/)  
 
 Puedes instalar las dependencias con:
 
@@ -53,14 +53,30 @@ python test_matlab.py
 
 ## Estructura del Código
 
-- **Definición del sistema de ODEs:**  
-  La función `ES_nuevo` implementa el sistema de ecuaciones diferenciales basado en los parámetros físicos del péndulo.
+### Definición del sistema de ODEs:
+La función `ES_nuevo` implementa el sistema de ecuaciones diferenciales basado en los parámetros físicos del péndulo.
 
-- **Simulación:**  
-  Se resuelve el sistema usando `solve_ivp` con condiciones iniciales y un intervalo de tiempo definido.
+### Simulación:
+Se resuelve el sistema usando `solve_ivp` con condiciones iniciales y un intervalo de tiempo definido.
 
-- **Visualización:**  
-  Se grafican las variables `P11`, `P12` y `P22` en función del tiempo.
+### Visualización:
+Se grafican las variables `P11`, `P12` y `P22` en función del tiempo.
+
+---
+
+## Archivo `requirements.txt`
+
+```txt
+numpy>=1.20.0
+scipy>=1.6.0
+matplotlib>=3.3.0
+```
+
+Puedes usar este archivo con:
+
+```sh
+pip install -r requirements.txt
+```
 
 ---
 
