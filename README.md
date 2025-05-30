@@ -66,7 +66,5 @@ python test_matlab.py
 
 ## Créditos
 
-Desarrollado por [Tu Nombre].  
-Contacto: [tu.email@dominio.com]
-
-Puedes personalizar el nombre y el contacto al final. ¡Listo para copiar y pegar!
+Desarrollado por [Miguel Angel Enríquez García].  
+Contacto: [miguel.egk@gmail.com]
